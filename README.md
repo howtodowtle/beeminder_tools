@@ -5,3 +5,10 @@ This repo contains tools that help me use Beeminder. I absolutely love Beeminder
 ## Tools
 
 - 750 Words: Track total number of pages finished.
+
+## How to use
+
+This is how I use the tools:
+
+- add personal usernames, passwords, auth tokens
+- create a cronjob that runs the tool regularly (e.g., `* 07-09 * * * /usr/local/bin/python3 /path/to/tool/beemind_750words.py`)
